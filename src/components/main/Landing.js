@@ -12,7 +12,7 @@ function Landing() {
   const [isHovered4, setIsHovered4] = useState(false);
 
   useEffect(() => {
-    fetch('https://yoursportz.in/api/faqs/')
+    fetch('http://98.70.72.84/faqs/')
       .then(response => response.json())
       .then(data => setFaqData(data))
       .catch(error => console.error('Error fetching FAQ data:', error));

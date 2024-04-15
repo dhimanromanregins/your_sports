@@ -54,7 +54,7 @@ const Contact = () => {
         if (isValid) {
             try {
                 setIsLoading(true); // Set isLoading to true when submitting the form
-                const response = await fetch('https://yoursportz.in/api/contacts/', {
+                const response = await fetch('http://98.70.72.84/api/contacts/', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

@@ -16,6 +16,7 @@ import Privacy from './components/main/Privacy';
 import Terms from './components/main/Terms';
 import Dashboard from './components/main/utils/Dashboard';
 import Switcher from './components/main/utils/Switcher'
+import Features from './components/Features';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/privacy" element={<Privacy/>} />
           <Route path="/dashboard" element={<Dashboard/>} />
           <Route path="/switch" element={<Switcher/>} />
+          <Route path="/features" element={<Features/>} />
           {/* Add other routes here */}
         </Routes>
 

@@ -91,7 +91,7 @@ function Register() {
 
     // Send the form data to the API
     try {
-      const response = await fetch('https://yoursportz.in/api/register/', {
+      const response = await fetch('http://98.70.72.84/register/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
